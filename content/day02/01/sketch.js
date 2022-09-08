@@ -45,13 +45,14 @@ function plotterX(distance) {
 
   for (let i = 0; i < arrayY.length - 1; i++) {
     let t;
-
+    beginShape()
     for (j = 0; j < steps; j++) {
       t = 1 / steps * j;
       let x = arrayX[i] + t * space;
       let cosY = myCosLerp(t, arrayY[i], arrayY[i + 1])
-      point(x, cosY);
+      vertex(x, cosY);
     }
+    endShape()
   }
 }
 
@@ -63,16 +64,17 @@ function plotterY(distance) {
     arrayY.push(i * space);
     arrayX.push(random(distance, distance + distortion));
   }
-
   for (let i = 0; i < arrayY.length - 1; i++) {
     let t;
+    beginShape()
     for (j = 0; j < steps; j++) {
       t = 1 / steps * j;
       let y = arrayY[i] + t * space;
       let cosX = myCosLerp(t, arrayX[i], arrayX[i + 1])
-      point(cosX, y);
+      vertex(cosX, y);
 
     }
+    endShape()
   }
 }
 

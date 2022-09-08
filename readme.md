@@ -2,7 +2,7 @@
  Today we got introduced to Generative Computer Graphics. 
 
 ### Computing without a Computer
-Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.org/workshops/the-beach/). We were Three people and each of us had a pen with a different color. 
+Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.org/workshops/the-beach/). We were Three people and each of us had a pen with a different color. All we had to do, was to put a dot on the paper and make sure, that the spacing between each dot is as even as possible. 
 
 ### Computing with a Computer
 I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/sol-lewitt-wall-drawing-118). The drawing contains multiple, randomly placed dots, which are all connectet by straight lines.  
