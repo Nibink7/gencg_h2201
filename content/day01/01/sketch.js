@@ -48,7 +48,7 @@ function makePointsAndConnect(number){
 
 
     for(let j = 0; j< number; j++){
-      line(multiPosX[1], multiPosY[j], multiPosX[i], multiPosY[1])
+      line(multiPosX[j], multiPosY[j], multiPosX[i], multiPosY[i])
     }
     multiPosX[i] = multiPosX[i] + veloCityX[i];
     multiPosY[i] = multiPosY[i] + veloCityY[i];
