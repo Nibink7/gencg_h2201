@@ -18,7 +18,7 @@ function draw() {
   let x = 0;
   let y = 0;
 
-  for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 17; i++) {
     let prevX = x;
     let prevY = y;
 

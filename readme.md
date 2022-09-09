@@ -18,13 +18,13 @@ I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/s
 
 ---
 
-## **Day 2 - 05.09.2022**
+## **Day 2 - 06.09.2022**
 
 Today we tried make a computergraphics based on grids and patterns. I tried to make a grid with imperfect lines. The intention here was to make it look like as it was handmade. I achieved the grid with [Linear Interpolation](https://en.wikipedia.org/wiki/Linear_interpolation).
 
 ---
 
-## **Day 3 - 06.09.2022**
+## **Day 3 - 07.09.2022**
 
 Today we had the task to do an unique clock, that should involve some kind of cycle. My idea was to make a globe rotate periodically, in which the time could be told based on it's rotational angle. The Idea was inspired by [**Blender Guru**](https://www.youtube.com/watch?v=0YZzHn0iz8U)
 
@@ -55,12 +55,15 @@ I tried to make a Sun, that emits light by adding an emissive material, that ref
 
 ---
 
-## **Day 4 - 07.09.2022**
+## **Day 4 - 08.09.2022**
 
 Todays topic was to make an machine, that draws a picture. I tried to make a **Fourier series**, which combines several wavefunctions into one. 
 
-<iframe src="content/day04/01/index.html" width="100%" height="100%"></iframe>
+<iframe src="content/day04/01/index.html" width="100%" height="500px"></iframe>
 
 **Several sources for further explaination**
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
 - [Better Explained](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+
+## **Day 5 - 09.09.2022**
+
