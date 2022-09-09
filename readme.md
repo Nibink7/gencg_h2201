@@ -1,31 +1,31 @@
-## **Day 1 - 05.09.2022**
-
- Today we got introduced to Generative Computer Graphics.
+- [Day 1](day01/day01.md)
+- [Day 1](day01/day01.md)
+- [Day 1](day01/day01.md)
+- [Day 1](day01/day01.md)
+# **Day 1 - 05.09.2022**
+Today we got introduced to Generative Computer Graphics.
+We also got a new insight of Github and learned how to fork a repository.
 
   
 
-### Computing without a Computer
-
+## Computing without a Computer
 Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.org/workshops/the-beach/). We were Three people and each of us had a pen with a different color. All we had to do, was to put a dot on the paper and make sure, that the spacing between each dot is as even as possible.
 
   
 
-### Computing with a Computer
-
+## Computing with a Computer
 I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/sol-lewitt-wall-drawing-118). The drawing contains multiple, randomly placed dots, which are all connectet by straight lines.  
 
   
 
 ---
 
-## **Day 2 - 06.09.2022**
-
+# **Day 2 - 06.09.2022**
 Today we tried make a computergraphics based on grids and patterns. I tried to make a grid with imperfect lines. The intention here was to make it look like as it was handmade. I achieved the grid with [Linear Interpolation](https://en.wikipedia.org/wiki/Linear_interpolation).
 
 ---
 
-## **Day 3 - 07.09.2022**
-
+# **Day 3 - 07.09.2022**
 Today we had the task to do an unique clock, that should involve some kind of cycle. My idea was to make a globe rotate periodically, in which the time could be told based on it's rotational angle. The Idea was inspired by [**Blender Guru**](https://www.youtube.com/watch?v=0YZzHn0iz8U)
 
 To make the globe more earthlike, I applied a [texture](https://www.dropbox.com/sh/1rxblwi19i78ieh/AADNsHNRA7SysJ015GkXplewa?dl=0), which was provided by NASA. At first I applied the earth texture on a sphere and after that I tried to make it reflect light, by letting it emit it from another sphere, that should represent the sun. to make it more realistic, I applied a cloud texture ontop the earth texture. Applying the texture on a 3D modell is surprisingly easy in P5.js. it goes like this:
@@ -55,8 +55,7 @@ I tried to make a Sun, that emits light by adding an emissive material, that ref
 
 ---
 
-## **Day 4 - 08.09.2022**
-
+# **Day 4 - 08.09.2022**
 Todays topic was to make an machine, that draws a picture. I tried to make a **Fourier series**, which combines several wavefunctions into one. 
 
 <iframe src="content/day04/01/index.html" width="100%" height="500px"></iframe>
@@ -65,5 +64,5 @@ Todays topic was to make an machine, that draws a picture. I tried to make a **F
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
 - [Better Explained](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
 
-## **Day 5 - 09.09.2022**
+# **Day 5 - 09.09.2022**
 
