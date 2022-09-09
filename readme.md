@@ -1,7 +1,7 @@
 - [Day 1](day01/day01.md)
-- [Day 1](day01/day01.md)
-- [Day 1](day01/day01.md)
-- [Day 1](day01/day01.md)
+- [Day 2](day02/day02.md)
+- [Day 3](day03/day03.md)
+- [Day 4](day04/day04.md)
 # **Day 1 - 05.09.2022**
 Today we got introduced to Generative Computer Graphics.
 We also got a new insight of Github and learned how to fork a repository.
