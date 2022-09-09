@@ -7,14 +7,14 @@ let wave = [];
  */
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  stroke(255,100);
+  stroke(255);
   noFill();
   //frameRate(5)
 }
 
 function draw() {
   background(0);
-  translate(200, windowHeight / 2);
+  translate(520, windowHeight / 2);
   let x = 0;
   let y = 0;
 
@@ -37,13 +37,13 @@ function draw() {
   
   beginShape();
   for (let i = 0; i <= wave.length; i++) {
-    vertex(i, wave[i]);
+    vertex(i*0.5, wave[i]);
   }
   endShape();
 
-  time += 0.01;
+  time += 0.1;
 
-  if (wave.length > 150) {
+  if (wave.length > 15) {
     wave.pop;
   }
 
