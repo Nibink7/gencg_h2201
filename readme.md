@@ -1,9 +1,9 @@
 
 # **Overview**
-- [Day 1](day01/day01.md)
-- [Day 2](day02/day02.md)
-- [Day 3](day03/day03.md)
-- [Day 4](day04/day04.md)
+- [Day 1](/content/day01/day01.md)
+- [Day 2](/content/day02/day02.md)
+- [Day 3](/content/day03/day03.md)
+- [Day 4](/content/day04/day04.md)
 
 ---
 # **Day 1 - 05.09.2022**
