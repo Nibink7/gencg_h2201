@@ -5,6 +5,7 @@
 - [Day 3](day03/day03.md)
 - [Day 4](day04/day04.md)
 
+---
 # **Day 1 - 05.09.2022**
 Today we got introduced to Generative Computer Graphics.
 We also got a new insight of Github and learned how to fork a repository.
@@ -18,10 +19,7 @@ Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.
 ## Computing with a Computer
 I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/sol-lewitt-wall-drawing-118). The drawing contains multiple, randomly placed dots, which are all connectet by straight lines.  
 
-  
-
 ---
-
 # **Day 2 - 06.09.2022**
 Today we tried make a computergraphics based on grids and patterns. I tried to make a grid with imperfect lines. The intention here was to make it look like as it was handmade. I achieved the grid with [Linear Interpolation](https://en.wikipedia.org/wiki/Linear_interpolation).
 
