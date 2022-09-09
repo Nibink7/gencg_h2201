@@ -10,6 +10,6 @@ Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.
 ## Computing with a Computer
 I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/sol-lewitt-wall-drawing-118). The drawing contains multiple, randomly placed dots, which are all connectet by straight lines.
 
-<iframe src="day01/01/index.html" width="100%" height="500px"></iframe>
+<iframe src="/day01/01/index.html" width="100%" height="500px"></iframe>
 
 
