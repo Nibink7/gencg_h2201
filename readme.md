@@ -59,7 +59,7 @@ I tried to make a Sun, that emits light by adding an emissive material, that ref
 
 Todays topic was to make an machine, that draws a picture. I tried to make a **Fourier series**, which combines several wavefunctions into one. 
 
-<iframe src="content/day04/01/index.html" width="100%" height="300"></iframe>
+<iframe src="content/day04/01/index.html" width="100%" height="100%"></iframe>
 
 **Several sources for further explaination**
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
