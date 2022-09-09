@@ -28,4 +28,4 @@ function draw() {
 
 I tried to make a Sun, that emits light by adding an emissive material, that reflects on the spinning globe, but I had to do some workarounds. 
 
-<iframe src="/day03/01/index.html" width="100%" height="500px"></iframe>
+<iframe src="/content/day03/01/index.html" width="100%" height="500px"></iframe>
