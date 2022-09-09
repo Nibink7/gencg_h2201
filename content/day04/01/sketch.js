@@ -22,7 +22,7 @@ function draw() {
   let x = 0;
   let y = 0;
 
-  for (let i = 0; i < 17; i++) {
+  for (let i = 0; i < 27; i++) {
     let prevX = x;
     let prevY = y;
 
@@ -40,9 +40,46 @@ function draw() {
     line(prevX, prevY, x, y)
   }
 
+  for (let i = 0; i < 17; i++) {
+    let prevX = x;
+    let prevY = y;
+
+    let n = i * 2 + 1
+    let radius = 100 * (4 / (n * PI));
+
+    if(i%2==0){
+      x += radius * sin(n * time*cos(radius));
+      y += radius * cos(n * time*cos(radius));
+    }else{
+      x += radius * cos(n * time*sin(radius));
+      y += radius * sin(n * time*sin(radius));
+    }
+    ellipse(prevX, prevY, radius * 2)
+    line(prevX, prevY, x, y)
+  }
+
+  for (let i = 0; i < 5; i++) {
+    let prevX = x;
+    let prevY = y;
+
+    let n = i * 2 + 1
+    let radius = 150 * (4 / (n * PI));
+
+    if(i%2==0){
+      x += radius * sin(n * time*cos(radius));
+      y += radius * cos(n * time*cos(radius));
+    }else{
+      x += radius * cos(n * time*sin(radius));
+      y += radius * sin(n * time*sin(radius));
+    }
+    ellipse(prevX, prevY, radius * 2)
+    line(prevX, prevY, x, y)
+  }
+
+  //ave.unshift(x);
   wave.unshift(y);
-  translate(250, 0)
-  line(x - 250, y, 0, wave[0]);
+  translate(350, 0)
+  line(x - 350, y, 0, wave[0]);
   
   beginShape();
   for (let i = 0; i <= wave.length; i++) {

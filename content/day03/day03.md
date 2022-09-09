@@ -1,3 +1,4 @@
+[Overview](../readme.md)
 # **Day 3 - 07.09.2022**
 
 Today we had the task to do an unique clock, that should involve some kind of cycle. My idea was to make a globe rotate periodically, in which the time could be told based on it's rotational angle. The Idea was inspired by [**Blender Guru**](https://www.youtube.com/watch?v=0YZzHn0iz8U)
@@ -26,3 +27,5 @@ function draw() {
 ```
 
 I tried to make a Sun, that emits light by adding an emissive material, that reflects on the spinning globe, but I had to do some workarounds. 
+
+<iframe src="day03/01/index.html" width="100%" height="500px"></iframe>
