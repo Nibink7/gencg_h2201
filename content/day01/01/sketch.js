@@ -9,13 +9,21 @@ let veloCityX = [];
 let veloCityY = [];
 
 function setup() {
-  createCanvas(1000, 700);
+  createCanvas(windowWidth, windowWidth);
   stroke(0,0,0)
   strokeWeight(0.1)
   //noLoop()
   fillArrayWithCoordinates(amountOfPoints)
   //console.log(multiPosX)
   
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {

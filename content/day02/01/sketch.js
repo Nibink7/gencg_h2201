@@ -6,10 +6,10 @@ let space = 25
 let steps = 30
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
   stroke(0)
   strokeWeight(0.5)
-  noLoop()
+  //noLoop()
 }
 
 function draw() {

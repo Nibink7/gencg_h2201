@@ -12,6 +12,10 @@ function setup() {
   //frameRate(5)
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   background(0);
   translate(520, windowHeight / 2);

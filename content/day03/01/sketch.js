@@ -15,6 +15,10 @@ function setup() {
   noStroke()
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
 
   background(0, 0, 10);

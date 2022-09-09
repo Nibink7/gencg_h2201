@@ -7,6 +7,10 @@ function setup() {
   video.hide();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 // Default P5 draw loop function
 function draw() {
   drawImage(video);
