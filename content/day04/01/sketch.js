@@ -18,7 +18,7 @@ function windowResized() {
 
 function draw() {
   background(0);
-  translate(520, windowHeight / 2);
+  translate(320, windowHeight / 2);
   let x = 0;
   let y = 0;
 
@@ -28,13 +28,18 @@ function draw() {
 
     let n = i * 2 + 1
     let radius = 150 * (4 / (n * PI));
-    x += radius * cos(n * time);
-    y += radius * sin(n * time);
+
+    if(i%2==0){
+      x += radius * cos(n * time*cos(radius));
+      y += radius * sin(n * time*cos(radius));
+    }else{
+      x += radius * sin(n * time*sin(radius));
+      y += radius * cos(n * time*sin(radius));
+    }
     ellipse(prevX, prevY, radius * 2)
     line(prevX, prevY, x, y)
-
-
   }
+
   wave.unshift(y);
   translate(250, 0)
   line(x - 250, y, 0, wave[0]);
@@ -45,7 +50,7 @@ function draw() {
   }
   endShape();
 
-  time += 0.1;
+  time += 0.01;
 
   if (wave.length > 15) {
     wave.pop;
