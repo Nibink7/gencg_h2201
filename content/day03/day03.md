@@ -1,4 +1,4 @@
-[Overview](../readme.md)
+[Overview](../../readme.md)
 # **Day 3 - 07.09.2022**
 
 Today we had the task to do an unique clock, that should involve some kind of cycle. My idea was to make a globe rotate periodically, in which the time could be told based on it's rotational angle. The Idea was inspired by [**Blender Guru**](https://www.youtube.com/watch?v=0YZzHn0iz8U)
