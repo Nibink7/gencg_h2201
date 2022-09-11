@@ -26,6 +26,10 @@ function draw() {
 
 ```
 
+**The textures I used:**
+
+![earth_clouds_8K_transparent](earth_clouds_8K_transparent.png "earth_clouds_8K_transparent")
+
 I tried to make a Sun, that emits light by adding an emissive material, that reflects on the spinning globe, but I had to do some workarounds. 
 
 <iframe src="/content/day03/01/index.html" width="100%" height="500px"></iframe>
