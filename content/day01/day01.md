@@ -52,7 +52,7 @@ function makePointsAndConnect(number) {
 ```
 
 {% raw %}
-<iframe src="day01/01/index.html" width="100%" height="500px"></iframe>
+<iframe src="01/index.html" width="100%" height="500px"></iframe>
 {% endraw %}
 
 

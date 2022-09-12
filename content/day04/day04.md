@@ -6,7 +6,7 @@ Todays topic was to make an machine, that draws a picture. I tried to make a **F
 
 My fourrier drawing machine 
 
-<iframe src="day04/01/index.html" width="100%" height="500px"></iframe>
+<iframe src="01/index.html" width="100%" height="500px"></iframe>
 
 **Several sources for further explaination**
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
