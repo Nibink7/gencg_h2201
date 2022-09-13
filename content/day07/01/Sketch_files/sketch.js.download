@@ -1,0 +1,31 @@
+let img;
+
+
+function preload() {
+  img = loadImage("hollow-knight_6018152.jpg")
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight)
+  pixelDensity(1)
+
+}
+
+function draw() {
+  background(220);
+  img.loadPixels();
+  for (var y = 0; y < height; y++) {
+    for (var x = 0; x < width; x++) {
+      var index = (x + y * width)*4;
+      img.pixels[index+0] = random(0,255);
+      img.pixels[index+1] = random(0,255);
+      img.pixels[index+2] = random(0,255);
+      img.pixels[index+3] = random(0,255);
+    }
+  }
+  image(img, windowWidth/2-img.width/2, windowHeight/2 - img.height/2)
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight)
+}
