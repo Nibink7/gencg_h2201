@@ -1,4 +1,3 @@
-[Overview](../../readme.md)
 # **Day 1 - 05.09.2022**
 Today we got introduced to Generative Computer Graphics.
 We also got a new insight of Github and learned how to fork a repository.  

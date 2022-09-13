@@ -1,5 +1,3 @@
-[Overview](../../readme.md)
-
 # **Day 4 - 08.09.2022**
 
 Todays topic was to make an machine, that draws a picture. I tried to make a **Fourier series**, which combines several wavefunctions into one.
