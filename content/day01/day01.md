@@ -10,7 +10,9 @@ Together we recreated "the Beach" by [Moniker Studio](https://conditionaldesign.
 ![The Beach](TheBeach.jpg)
 
 ### Sprouts
-[Sprouts](https://youtu.be/XKsTGdN-4_M)
+Sprouts is a game, which connects two dots and create a new dot on the connecting line of the previous dots. For further insight into this game, you can look into the following video.
+
+- [Vsauce 2](https://youtu.be/XKsTGdN-4_M)
   
 ## Computing with a Computer
 I tried to reacreate the [Sol Lewitt Wall Drawing](https://jessicacarnegie.com/sol-lewitt-wall-drawing-118). The drawing contains multiple, randomly placed dots, which are all connectet by straight lines.

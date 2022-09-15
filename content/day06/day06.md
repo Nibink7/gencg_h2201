@@ -9,5 +9,4 @@ I tried to go with an approach, in which every aspect of the Face will a result 
 <iframe src="01/index.html" width="100%" height="500px"></iframe>
 
 **The second approach**
-
 <iframe src="02/index.html" width="100%" height="500px"></iframe>

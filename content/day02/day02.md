@@ -3,6 +3,6 @@ Today we tried make a computergraphics based on grids and patterns. I tried to m
 
 For this, I had already my own LERP algorithmn, which draws lines with points next to each other, with an variable y value. I modified it to make the lines look imperfect, like lines that are drawn with an human hand.
 
-<iframe src="01/index.html" width="49%" height="500px"></iframe> 
+<iframe src="01/index.html" width="100%" height="500px"></iframe> 
 <iframe src="02/index.html" width="49%" height="500px"></iframe>
 
