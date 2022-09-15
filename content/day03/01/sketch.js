@@ -43,8 +43,6 @@ function earth() {
   //tint(120, 150, 150, 2000)
   texture(img1);
   textureMode(IMAGE)
-  // texture(img4)
-  // textureMode(NORMAL)
   sphere(100, 100, 100)
   pop()
 
@@ -62,5 +60,5 @@ function sun() {
   translate(-7000, 0, 0)
   texture(img2)
   //emissiveMaterial(255,2,0)
-  sphere(3400, 100, 100)
+  sphere(2400, 100, 100)
 }

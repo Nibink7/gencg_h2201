@@ -57,9 +57,6 @@ function makePointsAndConnect(number) {
   }
 }
 ```
-
-{% raw %}
+From the code, I got this.
 <iframe src="01/index.html" width="100%" height="500px"></iframe>
-{% endraw %}
-
 
