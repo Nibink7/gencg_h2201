@@ -17,4 +17,4 @@ And added some different sizes.
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
 - [Better Explained](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
 
-To be honest, the Series itself looks more interesting to me, than the wavepatterns.
+To be honest, the Series itself looks more interesting to me, than the wavepatterns, which is why I decided, to let the Series itself take the spotlight.
