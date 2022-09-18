@@ -25,12 +25,13 @@ function draw() {
 
 ```
 
-**The textures I used:**
+**The textures I used for the earth:**
 
 ad
 ![Earth texture](01/HMAJFQlA.png "earth_color")
 ![Earth Cloud Texture](01/earth_clouds_8K_transparent.png "earth_clouds_8K_transparent")
 
+This following texture is used for the Sun
 ![Sun Texture](./01/sun_texture.png)
 
 I tried to make a Sun, that emits light by adding an emissive material, that reflects on the spinning globe, but I had to do some workarounds, because it turns out that the emitting color doesnt reflect on the surface.
@@ -41,5 +42,6 @@ This is the earth, that reflects the light with the `directionalLight()` functio
 This is the sun, that should emit the light, but doesn't really.
 ![Sun](./01/images/sun_modell.png)
 
+Here is an interactive version.
 
 <iframe src="01/index.html" width="100%" height="500px"></iframe>
