@@ -1,5 +1,6 @@
 let img;
 let pixelArray = [];
+let randomness = 0.9123432;
 
 
 function preload() {
@@ -29,7 +30,7 @@ function draw() {
     }
     
     
-    pixelArray.sort(function(){return Math.random() - 0.5})
+    pixelArray.sort(function(){return Math.random()- randomness})
     
     let newPixelArr = []
     pixelArray.forEach(element => {

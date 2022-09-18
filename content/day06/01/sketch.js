@@ -1,7 +1,7 @@
 let phase = 0;
-let red = random(0,255)
-let green = random(0,255)
-let blue = random(0,255)
+// let red = random(0,255)
+// let green = random(0,255)
+// let blue = random(0,255)
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -23,7 +23,7 @@ function draw() {
   push()
   stroke(0)
   fill(0)
-  mouth(70,30,100)
+  mouth(70,240,120)
   pop()
 }
 
@@ -36,7 +36,7 @@ function head(diameter) {
   for (let i = 0; i < TWO_PI * 4; i += 0.01) {
     let offsetX = map(cos(i + phase), -1, 1, 0, 4);
     let offsetY = map(sin(i - phase), -1, 1, 0, 5);
-    let r = map(noise(offsetX, offsetY), 0, 1, diameter * 0.7, diameter * 1.2);
+    let r = map(noise(offsetX, offsetY), 0, 1, diameter * 0.9, diameter * 1.2);
     let x = r * cos(i);
     let y = r * sin(i);
     vertex(x, y);
@@ -49,6 +49,9 @@ function head(diameter) {
 }
 
 function eye(diameter, xPos, yPos) {
+  let orbiterX = xPos*sin(phase*0.21);//random(xPos, xPos+2);
+  let orbiterY = yPos*cos(phase*0.31);//random(yPos, yPos+2);
+  translate(orbiterX, orbiterY);
   beginShape();
   translate(xPos, yPos)
   for (let i = 0; i < TWO_PI * 4; i += 0.01) {
@@ -67,13 +70,10 @@ function eye(diameter, xPos, yPos) {
   phase += 0.01
 }
 
-function nose(ridgehight, Holes) {
-  circle(holes)
-}
 
 function mouth(diameter, xPos, yPos) {
-  let orbiterX = xPos*sin(phase*0.51);//random(xPos, xPos+2);
-  let orbiterY = yPos*cos(phase*0.31);//random(yPos, yPos+2);
+  let orbiterX = xPos/2*sin(phase*0.1);//random(xPos, xPos+2);
+  let orbiterY = yPos/2*cos(phase*0.1);//random(yPos, yPos+2);
   translate(orbiterX, orbiterY);
   beginShape();
   for (let i = 0; i < TWO_PI * 4; i += 0.1) {

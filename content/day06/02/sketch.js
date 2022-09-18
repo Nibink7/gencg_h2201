@@ -52,9 +52,6 @@ function eye(diameter, xPos, yPos) {
   phase += 0.01
 }
 
-function nose(ridgehight, Holes) {
-  circle(holes)
-}
 
 function mouth(diameter, xPos, yPos) {
   let orbiterX = xPos*phase*1;//random(xPos, xPos+2);

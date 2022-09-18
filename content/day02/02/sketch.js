@@ -1,7 +1,7 @@
 
 
 function setup() {
-  createCanvas(1700, 700);
+  createCanvas(windowWidth, windowHeight);
   noLoop();
 
 }

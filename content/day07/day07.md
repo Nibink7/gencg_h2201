@@ -34,5 +34,27 @@ for (let x = 0; x < img.width; x++) {
     }
 // After that, array is sorted randomly.
 pixelArray.sort(function(){return Math.random() - 0.5})
+
+//Create a new Array and push the new values
+let newPixelArr = []
+pixelArray.forEach(element => {
+    newPixelArr.push(element.r)
+    newPixelArr.push(element.g)
+    newPixelArr.push(element.b)
+    newPixelArr.push(element.a)
+});
+
+//Set each Pixel into their new position based on the newly created array.
+for (let i = 0; i < newPixelArr.length; i++){
+    img.pixels[i] = newPixelArr[i];
+}
+
+// At last let the Pixel update and draw the new Image.
+img.updatePixels();
+image(img, windowWidth / 2 - img.width / 2, windowHeight / 2 - img.height / 2)
+
+// When there is a loop, make the Array empty, so it is less taxing for the memory.
+pixelArray = []
+
 ```
 <iframe src="01/index.html" width="100%" height="500px"></iframe>
