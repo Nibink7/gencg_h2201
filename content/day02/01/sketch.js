@@ -1,8 +1,8 @@
 let distance = 300;
-let distortion = 34;
+let distortion = 90;
 let space = 25;
 let steps = 30;
-let scale = 100;
+let scale = 10;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  //background(220);
+  background(200,0);
   //plotterX(10)
   //plotterY(10)
   sketchGrid()
