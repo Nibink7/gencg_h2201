@@ -27,7 +27,7 @@ function draw() {
 
 **The textures I used for the earth:**
 
-ad
+
 ![Earth texture](01/HMAJFQlA.png "earth_color")
 ![Earth Cloud Texture](01/earth_clouds_8K_transparent.png "earth_clouds_8K_transparent")
 
@@ -42,6 +42,6 @@ This is the earth, that reflects the light with the `directionalLight()` functio
 This is the sun, that should emit the light, but doesn't really.
 ![Sun](./01/images/sun_modell.png)
 
-Here is an interactive version.
+Here is an interactive version.(can take some time, because of the textures.)
 
 <iframe src="01/index.html" width="100%" height="500px"></iframe>

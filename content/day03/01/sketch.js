@@ -5,10 +5,10 @@ var img4;
 
 function preload() {
 
-  img1 = loadImage('HMAJFQlA.png');
-  img3 = loadImage('earth_clouds_8K_transparent.png');
-  img2 = loadImage('sun_texture.png');
-  img4 = loadImage('topography_5k.png')
+  img1 = loadImage('images/HMAJFQlA.png');
+  img3 = loadImage('images/earth_clouds_8K_transparent.png');
+  img2 = loadImage('images/sun_texture.png');
+  img4 = loadImage('images/topography_5k.png')
 }
 
 function setup() {

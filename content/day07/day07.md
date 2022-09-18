@@ -7,11 +7,11 @@ I want to shuffle the pixel in a preloaded image. For that, each pixel have to b
 
 here I tried to shuffle the pixels of the following image and turn this...
 
-![Hollow_knight](01/hollow-knight_6018152.png 'Hollow Knight')
+![Hollow_knight](01/Images/hollow-knight_6018152.png 'Hollow Knight')
 ---
  
 ...to this.
-![Noise](01/download.png 'Hollow knight noise')
+![Noise](01/Images/download.png 'Hollow knight noise')
 
 ---
 ## What was the approach?

@@ -4,7 +4,8 @@ let randomness = 0.9123432;
 
 
 function preload() {
-  img = loadImage("hollow-knight_6018152.png");
+  img = loadImage("Images/hollow-knight_6018152.png");
+  // img = loadImage("https://i.pinimg.com/564x/70/a1/b9/70a1b9d5264175d1ca825e0d9cb05b88.jpg");
 }
 
 function setup() {
