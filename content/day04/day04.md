@@ -3,15 +3,15 @@
 Todays topic was to make an machine, that draws a picture. I tried to make a **Fourier series**, which combines several wavefunctions into one.
 
 With the help of the [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA&t=1421s) I made an standard Fourier Series.
-<iframe src="02/index.html" width="100%" height="900px"></iframe>
+<iframe src="02/index.html" width="200%" height="900px"></iframe>
 
 Then Made the different sinewwaves move with more varied frequencies.
 
-<iframe src="03/index.html" width="130%" height="900px"></iframe>
+<iframe src="03/index.html" width="200%" height="900px"></iframe>
 
 And added some different sizes.
 
-<iframe src="01/index.html" width="130%" height="900px"></iframe>
+<iframe src="01/index.html" width="200%" height="900px"></iframe>
 
 **Here are several sources for further explaination about the Fourier Series and Fourier transformation.**
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
