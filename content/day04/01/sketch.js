@@ -60,7 +60,7 @@ function draw() {
     line(prevX, prevY, x, y)
   }
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 15; i++) {
     let prevX = x;
     let prevY = y;
 
