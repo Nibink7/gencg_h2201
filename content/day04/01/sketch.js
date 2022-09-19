@@ -1,7 +1,7 @@
 let time = 0;
 let wave = [];
-let size1 = 75;
-let size2 = 75;
+let size1 = 50;
+let size2 = 50;
 let size3 = 75;
 
 /**

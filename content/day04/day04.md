@@ -11,7 +11,7 @@ Then Made the different sinewwaves move with more varied frequencies.
 
 And added some different sizes.
 
-<iframe src="01/index.html" width="100%" height="500px"></iframe>
+<iframe src="01/index.html" width="150%" height="500px"></iframe>
 
 **Here are several sources for further explaination about the Fourier Series and Fourier transformation.**
 - [Coding Train](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
