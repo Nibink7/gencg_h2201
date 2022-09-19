@@ -13,25 +13,26 @@ function draw() {
   Plotter();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, window.innerHeight);
+}
 
 function Plotter() {
 
-  let space = 25;
+  let space = 45;
 
   stroke(255);
   strokeWeight(1);
   arrayX = [];
   arrayY = [];
-  for (i = 0; i <= width / space; i++) {
+  for (i = 0; i <= windowWidth / space; i++) {
     arrayX.push(i * space);
     arrayY.push(random(150, 350));
   }
-  console.log(arrayX);
-  console.log(arrayY)
 
   for (i = 0; i < arrayY.length - 1; i++) {
     let t;
-    let steps = 80;
+    let steps = 100;
     for (j = 0; j < steps; j++) {
       t = 1 / steps * j;
       let x = arrayX[i] + t * space;
@@ -39,16 +40,14 @@ function Plotter() {
       let cosY = myCosLerp(t, arrayY[i], arrayY[i + 1])
       let smoothY = mySmoothLerp(t, arrayY[i], arrayY[i + 1])
       let smootherY = mySmoothLerp(t, arrayY[i], arrayY[i + 1])
-      point(x, y);
-      point(x, cosY + 70);
-      point(x, smoothY + 140);
-      point(x, smootherY + 210);
-      console.log(x, y)
+      noFill()
+      beginShape(POINTS)
+        vertex(x, y -70);
+        vertex(x, cosY);
+        vertex(x, smoothY + 70);
+        vertex(x, smootherY + 140);
+      endShape()
     }
-    // line(x, myLerp(x, arrayY[i],arrayY[i]), x1, myLerp(x1, arrayY[i+1],arrayY[i+1]));
-    // line(x, myCosLerp(arrayY[x], arrayY[i]), x1, myCosLerp(arrayY[x+1], arrayY[i+1]));
-    // point(x, myCosLerp(arrayY[i], arrayY[i+1]));
-    // point(arrayX[i]*0.1, myLerp(i * 0.01, arrayY[i],arrayY[i]))
   }
 }
 

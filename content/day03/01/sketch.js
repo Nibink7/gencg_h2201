@@ -1,14 +1,12 @@
-var img3;
-var img2;
-var img1;
-var img4;
+var imgCloud;
+var imgSun;
+var imgEarth;
+
 
 function preload() {
-
-  img1 = loadImage('images/HMAJFQlA.png');
-  img3 = loadImage('images/earth_clouds_8K_transparent.png');
-  img2 = loadImage('images/sun_texture.png');
-  img4 = loadImage('images/topography_5k.png')
+  imgEarth = loadImage('./images/HMAJFQlA.png');
+  imgCloud = loadImage('images/earth_clouds_8K_transparent.png');
+  imgSun = loadImage('images/sun_texture.png');
 }
 
 function setup() {
@@ -41,7 +39,7 @@ function draw() {
 function earth() {
   push()
   //tint(120, 150, 150, 2000)
-  texture(img1);
+  texture(imgEarth);
   textureMode(IMAGE)
   sphere(100, 100, 100)
   pop()
@@ -50,15 +48,15 @@ function earth() {
   push()
   ambientLight(20, 20, 80)
   //tint(180, 153, 200)
-  texture(img3)
+  texture(imgCloud)
   sphere(101, 100, 100)
   rotateY(millis() / 3600)
   pop()
 }
 
 function sun() {
-  translate(-7000, 0, 0)
-  texture(img2)
+  translate(-3000, 0, 0)
+  texture(imgSun)
   //emissiveMaterial(255,2,0)
   sphere(2400, 100, 100)
 }
