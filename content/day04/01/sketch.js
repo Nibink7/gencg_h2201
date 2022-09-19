@@ -20,7 +20,7 @@ function windowResized() {
 
 function draw() {
   background(0);
-  translate(320, windowHeight / 2);
+  translate(size1*2 + 200, windowHeight / 2);
   let x = 0;
   let y = 0;
 
