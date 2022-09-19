@@ -1,5 +1,6 @@
 let time = 0;
 let wave = [];
+let size = 75;
 
 /**
  * Code is derived from Coding train
@@ -26,7 +27,7 @@ function draw() {
     let prevY = y;
 
     let n = i * 2 + 1
-    let radius = 150 * (4 / (n * PI));
+    let radius = size * (4 / (n * PI));
     x += radius * cos(n * time);
     y += radius * sin(n * time);
     ellipse(prevX, prevY, radius * 2)
@@ -35,8 +36,8 @@ function draw() {
 
   //ave.unshift(x);
   wave.unshift(y);
-  translate(450, 0)
-  line(x - 450, y, 0, wave[0]);
+  translate(size + 100, 0)
+  line(x -(size + 100), y, 0, wave[0]);
   
   beginShape();
   for (let i = 0; i <= wave.length; i++) {

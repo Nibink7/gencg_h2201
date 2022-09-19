@@ -1,6 +1,6 @@
 let time = 0;
 let wave = [];
-let spaceFromEdge = 420;
+let size = 75;
 
 
 /**
@@ -19,7 +19,7 @@ function windowResized() {
 
 function draw() {
   background(0);
-  translate(spaceFromEdge, windowHeight / 2);
+  translate(420, windowHeight / 2);
   let x = 0;
   let y = 0;
 
@@ -28,7 +28,7 @@ function draw() {
     let prevY = y;
 
     let n = i * 2 + 1
-    let radius = 150 * (4 / (n * PI));
+    let radius = size * (4 / (n * PI));
 
     if(i%2==0){
       x += radius * cos(n * time*cos(radius));
@@ -43,8 +43,8 @@ function draw() {
 
   //ave.unshift(x);
   wave.unshift(y);
-  translate(spaceFromEdge, 0)
-  line(x - spaceFromEdge, y, 0, wave[0]);
+  translate(size + 100, 0)
+  line(x - (size + 100), y, 0, wave[0]);
   
   beginShape();
   for (let i = 0; i <= wave.length; i++) {
